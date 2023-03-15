@@ -1,10 +1,10 @@
-const receivesAFunction = (test) =>{
+const receivesAFunction = (test) {
  test()
 }
 
-const returnsANamedFunction = () =>{
+const returnsANamedFunction () {
     return function mary (){}
 }
-const returnsAnAnonymousFunction =() => {
- return () => {}
+const returnsAnAnonymousFunction ()  {
+ return ()  {}
 }
